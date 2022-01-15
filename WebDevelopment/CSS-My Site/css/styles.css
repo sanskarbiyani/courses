@@ -1,0 +1,159 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  background-color: #f1f3f8;
+}
+
+.top-container {
+  background-color: #f1f3f8;
+  padding-top: 100px;
+  position: relative;
+}
+
+h1 {
+  margin: 50px auto 0;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625em;
+  color: #7579e7;
+  line-height: 2;
+}
+
+h2 {
+  margin-top: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  font-weight: normal;
+  color: #9ab3f5;
+}
+
+h3 {
+  margin-top: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  color: #a3d8f4;
+}
+
+a{
+  color : #a3d8f4;
+}
+
+hr {
+  border-style: dotted;
+  width: 4%;
+  border-width: 7px;
+  border-top: 0;
+  border-color: #686d76;
+}
+
+p {
+  line-height: 2;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.middle-container{
+  text-align: center;
+}
+
+.profile{
+  margin: 100px auto;
+  width: 50%;
+}
+
+.profile img {
+  width: 25%;
+  margin-bottom: 35px;
+}
+
+.web{
+  display: inline-block;
+}
+
+.skills{
+  margin-top: 100px;
+}
+
+.skills-web{
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.skills-python{
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.skill-row{
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.contact-me{
+  margin: 100px auto;
+}
+
+.contact-me h3 {
+  width: 40%;
+  margin: 25px auto 40px;
+}
+
+.contact-me p {
+  width: 30%;
+  margin: 50px auto 60px;
+}
+
+.btn{
+  color: white;
+  display: inline-block;
+  text-decoration: none;
+  font-weight: bold;
+  margin: 35px auto;
+  padding: 20px;
+  background-image: linear-gradient(to bottom, #9ab3f5, #a3d8f4);
+  border-radius: 8px;
+}
+
+.btn:hover{
+  background-image: linear-gradient(to top, #9ab3f5, #a3d8f4);
+}
+
+.bottom-container{
+  height: 100px;
+  background-color: #a3d8f4;
+  padding: 20px 0 40px;
+}
+
+.bottom-container a {
+  display: inline-block;
+  margin: 30px 20px 15px;
+  color: #7579e7;
+}
+
+.bottom-container a:hover{
+  color: white;
+}
+
+.bottom-container p{
+  color: #EAF6F6;
+  font-size: 0.75em;
+  padding: 20px;
+}
